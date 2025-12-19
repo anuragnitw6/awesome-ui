@@ -74,16 +74,16 @@ export default function HeroSection4() {
                                 <SheetTitle>Menu</SheetTitle>
                             </SheetHeader>
                             <nav className="flex flex-col gap-4 mt-8 px-2">
-                                <Link href="/docs" className="text-lg font-medium hover:text-purple-500 transition-colors pl-4 py-2">
+                                <Link href="/docs" className="text-lg font-medium hover:text-black transition-colors pl-4 py-2">
                                     Home
                                 </Link>
-                                <Link href="/docs" className="text-lg font-medium hover:text-purple-500 transition-colors pl-4 py-2">
+                                <Link href="/docs" className="text-lg font-medium hover:text-black transition-colors pl-4 py-2">
                                     About
                                 </Link>
-                                <Link href="/docs" className="text-lg font-medium hover:text-purple-500 transition-colors pl-4 py-2">
+                                <Link href="/docs" className="text-lg font-medium hover:text-black transition-colors pl-4 py-2">
                                     Features
                                 </Link>
-                                <Link href="/docs" className="text-lg font-medium hover:text-purple-500 transition-colors pl-4 py-2">
+                                <Link href="/docs" className="text-lg font-medium hover:text-black transition-colors pl-4 py-2">
                                     Pricing
                                 </Link>
                                 <div className="flex flex-col gap-2 mt-4">
@@ -103,8 +103,9 @@ export default function HeroSection4() {
                         <NavigationMenuList>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link href="/docs" className={navigationMenuTriggerStyle()}
-                                    style={{ color: "white" }}
+                                    <Link
+                                        href="/docs"
+                                        className={`${navigationMenuTriggerStyle()} text-white hover:text-black focus:text-black data-[state=open]:text-black data-[active=true]:text-black`}
                                     >
                                         Home
                                     </Link>
@@ -112,8 +113,9 @@ export default function HeroSection4() {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link href="/docs" className={navigationMenuTriggerStyle()}
-                                    style={{ color: "white" }}
+                                    <Link
+                                        href="/docs"
+                                        className={`${navigationMenuTriggerStyle()} text-white hover:text-black focus:text-black data-[state=open]:text-black data-[active=true]:text-black`}
                                     >
                                         About
                                     </Link>
@@ -121,8 +123,9 @@ export default function HeroSection4() {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link href="/docs" className={navigationMenuTriggerStyle()}
-                                    style={{ color: "white" }}
+                                    <Link
+                                        href="/docs"
+                                        className={`${navigationMenuTriggerStyle()} text-white hover:text-black focus:text-black data-[state=open]:text-black data-[active=true]:text-black`}
                                     >
                                         Features
                                     </Link>
@@ -130,8 +133,9 @@ export default function HeroSection4() {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink asChild>
-                                    <Link href="/docs" className={navigationMenuTriggerStyle()}
-                                    style={{ color: "white" }}
+                                    <Link
+                                        href="/docs"
+                                        className={`${navigationMenuTriggerStyle()} text-white hover:text-black focus:text-black data-[state=open]:text-black data-[active=true]:text-black`}
                                     >
                                         Pricing
                                     </Link>
