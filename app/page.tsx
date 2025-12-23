@@ -7,5 +7,5 @@ import { HeroSection11 } from "@/components/hero-section-11";
 import { HeroSection12 } from "@/components/hero-section-12";
 import { HeroSection13 } from "@/components/hero-section-13";
 export default function Home() {
-  return <HeroSection13 />;
+  return <HeroSection8 />;
 }
